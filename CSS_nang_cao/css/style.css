@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    min-width: 100%;
+}
+
+video {
+    max-width: 100%;
+}
+
+li {
+    list-style-type: none;
+}
+
+.box1 {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    float: left;
+    text-align: center;
+    line-height: 100px;
+    font-size: 50px;
+}
+
+p {
+    display: none;
+}
+
+.box1:hover p {
+    display: block;
+}
+
+.box2 {
+    background-color: pink;
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+.list-box {
+    overflow: auto;
+    background: orangered;
+}

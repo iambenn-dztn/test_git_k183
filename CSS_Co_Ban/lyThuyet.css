@@ -1,0 +1,11 @@
+#p1{
+    color: blue;
+    width: 100px;
+    height: 100px;
+}
+.box1{
+    height: 300px;
+    width: 300px;
+    background-image:url("dz.jpg") ;
+    /* background-color: burlywood ; */
+}

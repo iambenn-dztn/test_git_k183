@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: black;
+}
+
+body {
+    background-color: plum;
+}
+
+img {
+    max-width: 100%;
+}
+
+header {
+    background-color: #222;
+    padding: 11px 0 11px 0;
+}
+
+.mau-1 {
+    background-color: #EB1F27;
+}
+
+.text-menu {
+    display: none;
+}
+
+#search input {
+    margin-right: -5px;
+    padding-left: 12px;
+    height: 30px;
+    border: none;
+    /* Bo góc */
+    border-radius: 5px 0 0 5px;
+}
+
+#search input::placeholder {
+    color: #222;
+}
+
+#search button {
+    width: 78px;
+    border: none;
+    background-color: #EB1F27;
+    height: 30px;
+    border-radius: 0 5px 5px 0;
+}
+
+#sup-cart {
+    color: #fff;
+}
+
+#sup-cart span {
+    display: inline-block;
+    background-color: #EB1F27;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+}
+
+nav li {
+    border-right: 1px solid #222;
+}
+
+nav {
+    margin-bottom: 10px;
+}
+
+nav li:hover {
+    background-color: palevioletred;
+}
+
+nav a {
+    padding: 14px 14px 14px 14px !important;
+}
+
+.no-pd {
+    padding: 0;
+}
+
+#banner img {
+    margin-bottom: 10px;
+}
+
+.info h4 {
+    border-bottom: 1px solid #000;
+    padding-bottom: 10px;
+}
+
+#footer-bottom {
+    background-color: #222;
+    color: #fff;
+}
+
+
+/* css product */
+
+.list-product h2 {
+    padding: 18px 0px 14px 0px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.product{
+    background-color: #fff;
+    text-align: center;
+    padding: 10px 27px 30px 27px;
+    margin: 0px 0px 0px 0px;
+    border-radius: 5px;
+    border: 1px solid #999 ;
+}
+
+.product img{
+    width: 124px;
+    height: 172px;
+    
+}
+
+.text-bold{
+    font-weight: bold;
+}
+
+.product span{
+    color: red;
+    font-weight: bold;
+}
+
+a:hover{
+    text-decoration: none;
+    
+}
+
+.fex-padding-col{
+    padding: 0px 6px 12px 6px !important ;
+}
+
+.fix-padding-row{
+    padding: 0px 9px 0px 9px;
+}
+
+#sup-cart{
+    text-align: right;
+}
